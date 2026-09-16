@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right,#3498db,#003566);
+    background: linear-gradient(to right,#03045E,red, white);
     font-family:georgia, serif;
 }
 h1{
@@ -23,7 +23,7 @@ h1{
     height: 300px;
     border-radius: 50%;
     padding: 10px;
-    display: block;
+    
     margin: auto;
 }
 .hijo2{
