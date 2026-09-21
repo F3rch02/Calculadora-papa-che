@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo4.css">
+    <link rel="stylesheet" href="estilo2.css">
+
 </head>
+
 <body>
-    
+    <img src="img/Gemini_Generated_Image_dmuxiadmuxiadmux.jpg" alt="Logo" width="250" id="logo">
+    <center><h1 style="color: white;">División</h1></center>
+    <br>
+    <div class="caja">
+        <br>
+        <center><input type="text" id="pantalla" readonly></center>
+        <br>
+        <center>
+            <button onclick="Agregar('1')" class="boton">1</button>
+            <button onclick="Agregar('2')" class="boton">2</button>
+            <button onclick="Agregar('3')" class="boton">3</button>
+            <br>
+            <button onclick="Agregar('4')" class="boton">4</button>
+            <button onclick="Agregar('5')" class="boton">5</button>
+            <button onclick="Agregar('6')" class="boton">6</button>
+            <br>
+            <button onclick="Agregar('7')" class="boton">7</button>
+            <button onclick="Agregar('8')" class="boton">8</button>
+            <button onclick="Agregar('9')" class="boton">9</button>
+            <br>
+            <button onclick="Agregar('/')" class="boton">/</button>
+            <button onclick="Agregar('0')" class="boton">0</button>
+            <button onclick="Calcular()" class="boton">=</button>
+            <br>
+            <button onclick="Eliminar()" class="boton">Eliminar</button>
+        </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="contenido">
+        <button onclick="suma()" class="pag">
+            suma
+        </button>
+
+        <button onclick="resta()" class="pag">
+            resta
+        </button>
+
+        <button onclick="multiplicacion()" class="pag">
+            multiplicación
+        </button>
+
+        <button onclick="division()" class="pag">
+            <u><b>división</b></u>
+        </button>
+        <br>
+        <br>
+        <br>
+        <button onclick="cerrar()" class="pag">
+            cerrar sesion
+        </button>
+
+    </div>
+
+
+
+
+
+    <script src="codigo.js"></script>
+    <script>
+        function suma() {
+
+            window.location.href = "sumas.html";
+
+        }
+
+        function resta() {
+
+            window.location.href = "resta.html";
+
+        }
+
+        function division() {
+
+            window.location.href = "divicion.html";
+
+        }
+
+        function multiplicacion() {
+
+            window.location.href = "multiplicacion.html";
+
+        }
+
+        function cerrar() {
+
+            window.location.href = "inicio.html";
+
+        }
+    </script>
 </body>
+
 </html>
