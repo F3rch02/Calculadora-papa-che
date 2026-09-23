@@ -1,29 +1,34 @@
-body{
-    background: linear-gradient(to right,#03045E,red, white);
-    font-family:georgia, serif;
+body {
+    background: linear-gradient(to right, #03045E, red, white);
+    font-family: georgia, serif;
 }
-#logo{
+
+#logo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     padding: 10px;
     margin: auto;
 }
-h1{
+
+h1 {
     color: #0B1B2B;
 }
-#pantalla{
+
+#pantalla {
     width: 50%;
     height: 30px;
 }
-.boton{
+
+.boton {
     width: 100px;
     height: 50px;
     border-radius: 10px;
     background-color: #0B1B2B;
     color: white;
 }
-.caja{
+
+.caja {
     width: 50%;
     width: 400px;
     height: 400px;
@@ -31,12 +36,13 @@ h1{
     border-radius: 10px;
     margin: auto;
 }
-.contenido{
+
+.contenido {
     margin: auto;
     text-align: center;
 }
 
-.pag{
+.pag {
     width: 150px;
     height: 50px;
     margin: auto;
@@ -44,14 +50,47 @@ h1{
     background-color: #0B1B2B;
     color: white;
 }
-.principal{
- display: flex;
- width: 100%;
+
+.principal {
+    display: flex;
+    width: 100%;
 }
-.info{
+
+.info {
     width: 50%;
     height: 400px;
     background-color: #0B1B2B;
     color: white;
     text-align: center;
+}
+
+
+.carrusel {
+    height: 100%;
+    align-items: center;
+}
+
+.carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+
+.carrusel-item {
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    outline: 2px solid black;
+    cursor: pointer;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover {
+    transform: scale(1.2);
 }
