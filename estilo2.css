@@ -24,6 +24,7 @@ h1{
     color: white;
 }
 .caja{
+    width: 50%;
     width: 400px;
     height: 400px;
     background-color: #dda15e;
@@ -42,4 +43,15 @@ h1{
     border-radius: 10px;
     background-color: #0B1B2B;
     color: white;
+}
+.principal{
+ display: flex;
+ width: 100%;
+}
+.info{
+    width: 50%;
+    height: 400px;
+    background-color: #0B1B2B;
+    color: white;
+    text-align: center;
 }
